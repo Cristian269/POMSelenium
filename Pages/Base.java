@@ -29,7 +29,7 @@ public class Base {
 	System.setProperty("webdriver.chrome.driver","./src/test/resources/chromedriver/chromedriver.exe");
 	return driver;
 	}
-	/*public  WebElement FindElement (By locator) {
+	public  WebElement FindElement (By locator) {
 		
 		WebElement element = driver.findElement(locator);
 		return element;
@@ -47,7 +47,7 @@ public class Base {
 		
 	 WebElement element = driver.findElement((By) locator);
 	return element.getText();	
-	}*/
+	}
 	
 	public void Types (String inputText, By locator) {
 		
